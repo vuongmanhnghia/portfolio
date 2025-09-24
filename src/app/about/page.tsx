@@ -29,7 +29,7 @@ import {
   SiPrettier,
   SiTypescript,
   SiVercel,
-  SiVisualstudiocode,
+  // SiVisualstudiocode,
 } from "react-icons/si";
 
 // @ts-ignore
@@ -167,12 +167,12 @@ const TOOLS = [
     icon: <FaGithub size={"50px"} color="#fff" />,
     color: "#000000",
   },
-  {
-    name: "VS Code",
-    content: "Next.js is a React framework for production",
-    icon: <SiVisualstudiocode size={"50px"} color="#007acc" />,
-    color: "#007acc",
-  },
+  // {
+  //   name: "VS Code",
+  //   content: "Next.js is a React framework for production",
+  //   icon: <SiVisualstudiocode size={"50px"} color="#007acc" />,
+  //   color: "#007acc",
+  // },
   {
     name: "VIM",
     content: "Next.js is a React framework for production",

@@ -3,7 +3,7 @@ import { config } from "@/data/config";
 import { Resend } from "resend";
 import { z } from "zod";
 
-export const dynamic = "force-dynamic";
+// export const dynamic = "force-dynamic";
 
 const Email = z.object({
 	fullName: z.string().min(2, "Full name is invalid!"),
